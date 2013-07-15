@@ -1,7 +1,10 @@
 {
   "name": "darlingjs",
   "version": "0.7.0",
-  "main": "./darling.js",
+  "main": [
+    "./darling.js",
+    "./darling.min.js"
+  ],
   "description": "Component & Entity based javascript game engine. Decoupled from any visualization, physics, and so on. With injections and modules based on AngularJS.",
   "keywords": [
     "entity",
