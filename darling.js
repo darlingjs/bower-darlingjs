@@ -1,5 +1,5 @@
 /**
- * @license darlingjs v0.7.1 2013-07-17 by Eugene Krevenets.
+ * @license darlingjs v0.7.5 2015-06-19 by Eugene Krevenets.
  * Component & Entity based javascript game engine. Decoupled from any visualization, physics, and so on. With injections and modules based on AngularJS.
  * http://darlingjs.github.io/
  *
@@ -72,7 +72,7 @@ var _darlingutil = window.darlingutil;
  */
 var darlingutil = window.darlingutil = window.darlingutil||{};
 
-darlingutil.version = '0.7.1';
+darlingutil.version = '0.0.0';
 
 /**
  * @ngdoc function
@@ -1168,7 +1168,7 @@ var _darlingjs = window.darlingjs;
  * Uses for creating modules and game world.
  */
 var darlingjs = window.darlingjs || (window.darlingjs = {});
-darlingjs.version = '0.7.1';
+darlingjs.version = '0.0.0';
 
 var worlds = {};
 
